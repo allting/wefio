@@ -14,6 +14,8 @@
 		0FFCEDC61B41226E0094B87D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFCEDC51B41226E0094B87D /* Images.xcassets */; };
 		0FFCEDC91B41226E0094B87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFCEDC71B41226E0094B87D /* Main.storyboard */; };
 		0FFCEDD51B41226E0094B87D /* WefioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCEDD41B41226E0094B87D /* WefioTests.m */; };
+		0FFCEDDF1B4122F40094B87D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFCEDDE1B4122F40094B87D /* WebKit.framework */; };
+		0FFCEDE11B41261F0094B87D /* html in Resources */ = {isa = PBXBuildFile; fileRef = 0FFCEDE01B41261F0094B87D /* html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		0FFCEDCE1B41226E0094B87D /* WefioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WefioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFCEDD31B41226E0094B87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FFCEDD41B41226E0094B87D /* WefioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WefioTests.m; sourceTree = "<group>"; };
+		0FFCEDDE1B4122F40094B87D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0FFCEDE01B41261F0094B87D /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FFCEDDF1B4122F40094B87D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		0FFCEDAC1B41226E0094B87D = {
 			isa = PBXGroup;
 			children = (
+				0FFCEDDE1B4122F40094B87D /* WebKit.framework */,
 				0FFCEDB71B41226E0094B87D /* Wefio */,
 				0FFCEDD11B41226E0094B87D /* WefioTests */,
 				0FFCEDB61B41226E0094B87D /* Products */,
@@ -88,6 +94,7 @@
 				0FFCEDC51B41226E0094B87D /* Images.xcassets */,
 				0FFCEDC71B41226E0094B87D /* Main.storyboard */,
 				0FFCEDC21B41226E0094B87D /* Wefio.xcdatamodeld */,
+				0FFCEDE01B41261F0094B87D /* html */,
 				0FFCEDB81B41226E0094B87D /* Supporting Files */,
 			);
 			path = Wefio;
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FFCEDC61B41226E0094B87D /* Images.xcassets in Resources */,
+				0FFCEDE11B41261F0094B87D /* html in Resources */,
 				0FFCEDC91B41226E0094B87D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
