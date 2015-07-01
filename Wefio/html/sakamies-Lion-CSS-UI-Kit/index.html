@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Lion CSS UI Kit</title>
   <link rel="stylesheet" href="lion-ui-kit.css" />
+  <script src="../../Wefio.js"></script>
 </head>
 <body>
   <div class="header">
@@ -46,7 +47,7 @@
         <input class="disclosure" checked type="checkbox" name="r1" id="r1" />
         <div class="section">
           <input checked type="radio" name="source-item" id="i1" />
-          <label class="item" for="i1"><span class="icon">I</span> Photos</label>
+          <label class="item" for="i1" onclick="reloadView(wefio.files('~/'));"><span class="icon">I</span> Photos</label>
           <input type="radio" name="source-item" id="i2" />
           <label class="item" for="i2"><span class="icon">M</span> Movies</label>
           <input type="radio" name="source-item" id="i3" />
@@ -94,7 +95,7 @@
           </div>
         </div>
       </div>
-      <div class="view">
+      <div class="view" id="files">
       </div>
     </div>
   </div>
